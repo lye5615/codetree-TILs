@@ -15,6 +15,11 @@ public class Main {
             y1[i] = sc.nextInt();
             x2[i] = sc.nextInt();
             y2[i] = sc.nextInt();
+
+            x1[i] += 100;
+            y1[i] += 100;
+            x2[i] += 100;
+            y2[i] += 100;
         }
 
         for(int i=0; i<n; i++){
