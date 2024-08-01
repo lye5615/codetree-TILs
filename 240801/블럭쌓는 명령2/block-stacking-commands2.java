@@ -14,7 +14,7 @@ public class Main {
             kb[i] = sc.nextInt();
         }
         
-        for(int i=1; i<k+1; i++){
+        for(int i=1; i<=k; i++){
             for(int j=ka[i]; j<=kb[i]; j++){
                 block[i]++;
             }
