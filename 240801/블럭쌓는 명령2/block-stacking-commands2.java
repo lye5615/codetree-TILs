@@ -16,7 +16,7 @@ public class Main {
         
         for(int i=1; i<=k; i++){
             for(int j=ka[i]; j<=kb[i]; j++){
-                block[i]++;
+                block[j]++;
             }
         }
         int max = 0;
