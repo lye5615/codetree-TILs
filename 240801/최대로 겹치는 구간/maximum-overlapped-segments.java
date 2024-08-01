@@ -28,7 +28,7 @@ public class Main {
 
         int r = 0;
         for(int i=1;i<=200;i++){
-            if(line[i]>=2 && ){
+            if(line[i]>=2){
                 ++r;
             }
         }
