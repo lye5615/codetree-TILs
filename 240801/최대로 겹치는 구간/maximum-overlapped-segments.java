@@ -14,8 +14,7 @@ public class Main {
         for(int i=1; i<=n; i++){
             x1[i] = sc.nextInt();
             x2[i] = sc.nextInt();
-        }
-        for(int i=1; i<=n; i++){
+        
             x1[i] += 100;
             x2[i] += 100;
         }
@@ -28,10 +27,10 @@ public class Main {
 
         int r = 0;
         for(int i=1;i<=200;i++){
-            if(line[i]>=2){
-                ++r;
+            if(line[i]>r){
+                r = line[i];
             }
         }
-        System.out.println(r-1);
+        System.out.println(r);
     }
 }
